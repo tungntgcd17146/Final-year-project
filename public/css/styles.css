@@ -1,0 +1,411 @@
+* p {
+  text-align: justify;
+}
+
+/* Template Tung */
+
+*{
+  border-radius:0 !important
+}
+ul{
+  list-style:none !important
+}
+footer .form-control{
+  border:0 !important
+}
+.masthead{
+  height:135vh;
+  min-height:500px;
+  background-image:url(../images/about-header.jpg);
+  background-size:cover;
+  background-position:center;
+  background-repeat:no-repeat
+}
+.rooms-masthead{
+  background-image:url(../images/rooms-header.jpg)
+}
+.services-masthead{
+  background-image:url(../images/services-header.jpg)
+}
+.services-article-masthead{
+  background-image:url(../images/beach.jpg)
+}
+.contact-masthead{
+  background-image:url(../images/tropical-beach.jpg)
+}
+.card-title,.s  -title{
+  font-size:1.5rem
+}
+.card-subtitle{
+  font-size:1.2rem
+}
+.icons .fas{
+  font-size:20px;
+  color:#2222ff;
+  padding:5px 10px 0px 10px
+}
+.icons .fab{
+  font-size:30px;
+  color:#fff
+}
+footer{
+  background:#202030;
+  color:#fff
+}
+footer h3{
+  font-size:1rem
+}
+footer a{
+  color:#fff
+}
+footer a:hover{
+  color:#ccc
+}
+.navbar{
+  text-transform:uppercase;
+  background:rgba(0,0,0,0.6) !important
+}
+.navbar-brand{
+  font-size:1.5rem;
+  letter-spacing:0.5rem
+}
+.carousel-fullscreen .carousel-inner .carousel-item{
+  height:100vh;
+  min-height:600px;
+  background-position:center center;
+  background-repeat:no-repeat;
+  background-size:cover
+}
+.carousel-fullscreen .carousel-caption{
+  top:50%;
+  bottom:auto;
+  -webkit-transform:translate(0, -50%);
+  transform:translate(0, -50%)
+}
+.slide-1{
+  background:url("../images/bg-header-1.jpg") #21acad
+}
+.slide-2{
+  background:url("../images/bg-header-2.jpg") #8140a0
+}
+.slide-3{
+  background:url("../images/bg-header-3.jpg") #c73816
+}
+.rooms-slide-1{
+  background:url("../images/rooms-slide-1.jpg") #8140a0
+}
+.rooms-slide-2{
+  background:url("../images/rooms-slide-2.jpg") #c73816
+}
+.rooms-slide-3{
+  background:url("../images/rooms-slide-3.jpg") #21acad
+}
+.rooms-slide-4{
+  background:url("../images/rooms-slide-4.jpg") #8140a0
+}
+.rooms-slide-5{
+  background:url("../images/blog_1.jpg") #8140a0
+}
+.rooms-slide-6{
+  background:url("../images/mt-xoi-ngu-sac.jpg") #c73816
+}
+.rooms-slide-7{
+  background:url("../images/nt-ca-chep-nuong.jpg") #21acad
+}
+.overlay{
+  position:absolute;
+  width:100%;
+  height:100%;
+  background:#000;
+  opacity:0.3;
+  -webkit-transition:all 0.2s ease-out;
+  transition:all 0.2s ease-out
+}
+/*# sourceMappingURL=style.min.css.map */
+
+
+/* End Template */
+
+#footer-icons a {
+  margin-right: 30px;
+}
+
+.padding-3r
+{
+  padding-bottom: 3rem;
+}
+
+#section-about {
+  background-color: #f4f4f2;
+}
+
+#section-room{
+  background-color: #e8e8e8;
+}
+
+#section-service{
+  background-color: #f4f4f2;
+}
+.color-border{
+  /* border-style: solid; */
+  border-radius: 5px;
+  box-shadow: 0px 5px 5px 4px rgba(0, 0, 0, 0.5);;
+/* border-color: coral; */
+/* border-width: 2px;  */
+background-color: rgb(245, 245, 245);
+}
+
+.h-2{
+  height: 2rem;
+}
+.col-12 .image{
+  width: 25%;
+  float:left;
+}
+.zoom {
+  transition: transform .2s;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.007);
+  -webkit-transform: scale(1.007);
+  transform: scale(1.007);
+}
+.text {
+
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.dropbtn {
+  padding: 6px;
+  font-size: 16px;
+  border: none;
+  width: 4.6rem;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  z-index: 100;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 4.5rem;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  margin-top: 2rem;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 12px;
+  text-decoration: none;
+  display: block;
+}
+
+
+.dropdown:hover .dropdown-content {display: block;}
+
+
+.effect-image-1{
+	position: relative;
+	display: block;
+}
+.overlay-sim-text-2{
+  transition: all .4s linear;
+    -webkit-transition: all .4s linear;
+    -moz-transition: all .4s linear;
+    -o-transition: all .4s linear;
+}
+.overlay-sim-text-2{
+  position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background: rgb(255, 187, 0);
+    opacity: 0;
+}
+.effect-image-1:hover .overlay-xs-1{
+  opacity: 1;
+  visibility: visible;
+  display: block;
+}
+.col-7 .left{
+  width: 47%;
+  float:left;
+}
+.col-7 .right{
+  width: 47%;
+  float:right;
+}
+
+.temp .left{
+  width: 45%;
+  float:left;
+}
+.temp .right{
+  width: 45%;
+  float:right;
+}
+
+.col-12 .image1{
+  width: 5%;
+  float:left;
+}
+hr.left {
+  text-align: left;
+  margin-left: 0;
+  width: 50%;
+  }
+
+.col-12 .content1{
+  width: 90%;
+  float:left;
+}
+.col-12 .content{
+  width: 75%;
+  float: left;
+}
+.col-12 .content .form-group{
+  width: 15%;
+  float: right;
+}
+.center {
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+#top-left{
+  text-align: left;
+  text-align: top;
+}
+
+.font-size{
+  font-size: 13px;
+}
+.py{
+  padding-top: 5rem;
+}
+.border-inset{
+  border-style: inset;
+}
+.border-outset{
+  border-style: outset;
+}
+
+#hotel-logo {
+  width: 60px;
+  height: 60px;
+}
+#hotel-logo1 {
+  width: 150px;
+  height: 150px;
+}
+.services-info {
+  color:#fc8621;
+}
+
+.services-price {
+  color: #ff9d72;
+}
+
+.info-price {
+  border: 2px solid #ffd66b;
+  padding: 10px;
+  border-radius: 50px 20px;
+}
+
+/* Home Scroll to top */
+#scrolltop {
+  display: block;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+/* Home reviewer */
+#reviewer {
+  text-align: center;
+  background-color: #364f6b;
+  color: #fff;
+}
+
+#reviewer p {
+  text-align: center;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.reviewer-image {
+  width: 10%;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+/* DASHBOARD Header */
+.dashboard-header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+
+/* Status check admin DASHBOARD */
+.status-check {
+  border: double #dddddd;
+  width: 1.5rem;
+  height: 1.5rem;
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.status-check:nth-child(2) {
+  margin-left: 0.3rem;
+}
+
+
+#table-wrapper {
+  position:relative;
+}
+#table-scroll {
+  height:30rem;
+  overflow:auto;
+  margin-top:20px;
+}
+#table-wrapper table {
+  width:100%;
+
+}
+#table-wrapper table * {
+  color:black;
+}
+#table-wrapper table thead th .text {
+  position:absolute;
+  top:-20px;
+  z-index:2;
+  height:20px;
+  width:35%;
+}
